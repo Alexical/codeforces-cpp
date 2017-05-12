@@ -1,5 +1,7 @@
 #include <cstdio>
 
+using namespace std;
+
 template<typename T>
 T Input(const char * format)
 {
@@ -7,8 +9,6 @@ T Input(const char * format)
     scanf(format, &input);
     return input;
 }
-
-using namespace std;
 
 int main(int argc, char ** argv)
 {
